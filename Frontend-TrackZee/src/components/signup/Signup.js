@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
-import SignupContext from '../components/Context/SignupContext';
-import UserContext from '../components/Context/UserContext';
+import SignupContext from '../Context/SignupContext';
+import UserContext from '../Context/UserContext';
 
 function Signup() {
     const userdata = useContext(UserContext)

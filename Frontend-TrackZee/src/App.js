@@ -8,7 +8,7 @@ import BookView from './components/products/ProductView';
 import EditBooks from './components/products/EditProducts';
 import Book from './components/products/Product';
 import Login from './components/Login/Login';
-import Signup from './signup/Signup';
+import Signup from './components/signup/Signup';
 import { UserProvider } from './components/Context/UserContext';
 import { LoginProvider } from './components/Context/LoginContext';
 import AddBook from './components/products/AddProduct';
